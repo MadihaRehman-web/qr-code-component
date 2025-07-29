@@ -1,0 +1,9 @@
+.qr-code-container {
+  max-width: 320px;
+  min-height: 499px;
+}
+
+.qr-code-image {
+  min-height: 288px;
+  max-width: 288px;
+}
