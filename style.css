@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .qr-code-outer-container {
+  font-family: "Outfit", sans-serif;
   height: 100vh;
   width: 100vw;
   background-color: hsl(212, 45%, 89%);
@@ -12,32 +15,35 @@
 }
 
 .qr-code-container {
-  max-width: 320px;
-  min-height: 499px;
+  width: 320px;
+  height: 499px;
   background-color: white;
   border-radius: 14px;
   padding: 1rem 1rem 2.5rem 1rem;
 }
 
 .qr-code-image {
-  min-height: 288px;
-  max-width: 288px;
+  height: 288px;
+  width: 288px;
   border-radius: 10px;
 }
 
 .content {
   text-align: center;
   margin-top: 1.5rem;
+  padding-inline: 16px;
 }
 
-.contentMessage1 {
+.content-message-bold {
   color: hsl(218, 44%, 22%);
-  font-size: 22px;
+  line-height: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.contentMessage2 {
+.content-message {
   color: hsl(216, 15%, 48%);
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.2px;
+  margin-top: 16px;
 }

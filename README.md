@@ -24,7 +24,7 @@ This is a simple QR code card component built using HTML and CSS. It is fully re
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-flex-box-hLeogmfeEY)
 - Live Site URL: [Live Demo](https://madiharehman-web.github.io/qr-code-component/)
 
 ## My process
