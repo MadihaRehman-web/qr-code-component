@@ -49,19 +49,11 @@ Here are a few code snippets I’m proud of:
 
 HTML:
 
-<section class="qr-code-container">
-  <img src="./images/image-qr-code.png" alt="QR Code" class="qr-code-image" />
-</section>
+`html <section class="qr-code-container"> <img src="./images/image-qr-code.png" alt="QR Code" class="qr-code-image" /> </section> `
 
 CSS:
-.qr-code-container {
-background-color: white;
-padding: 1rem;
-border-radius: 1rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+
+`css .qr-code-outer-container { font-family: "Outfit", sans-serif; height: 100vh; width: 100vw; background-color: hsl(212, 45%, 89%); display: flex; justify-content: center; align-items: center; } `
 
 ### Useful resources
 
