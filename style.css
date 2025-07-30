@@ -1,9 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.qr-code-outer-container {
+  height: 100vh;
+  width: 100;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .qr-code-container {
   max-width: 320px;
   min-height: 499px;
+  background-color: white;
+  border-radius: 14px;
+  padding: 1rem 1rem 2.5rem 1rem;
 }
 
 .qr-code-image {
   min-height: 288px;
   max-width: 288px;
+  border-radius: 10px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contentMessage1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contentMessage2 {
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  letter-spacing: 0.2px;
 }
